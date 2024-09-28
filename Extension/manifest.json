@@ -1,0 +1,17 @@
+{
+  "name": "Linkedin Post liker and Commenter",
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "description": "This Is Advanced Web chrome extension that will LIKE 7 COMMENT on the posts of linkedin",
+  "permissions": ["tabs"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.linkedin.com/*"],
+      "js": ["content.js"],
+      "all_frames": true
+    }
+  ]
+}
