@@ -1,11 +1,21 @@
 {
-  "name": "Linkedin Post liker and Commenter",
+  "name": "Linkedin Post Liker and Commenter",
   "manifest_version": 3,
   "version": "1.0.0",
-  "description": "This Is Advanced Web chrome extension that will LIKE 7 COMMENT on the posts of linkedin",
+  "description": "This is an advanced Chrome extension that will LIKE posts on LinkedIn.",
   "permissions": ["tabs"],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
   },
   "content_scripts": [
     {
