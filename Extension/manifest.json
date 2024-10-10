@@ -3,7 +3,7 @@
   "manifest_version": 3,
   "version": "1.0.0",
   "description": "This is an advanced Chrome extension that will LIKE posts on LinkedIn.",
-  "permissions": ["tabs"],
+  "permissions": [],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
